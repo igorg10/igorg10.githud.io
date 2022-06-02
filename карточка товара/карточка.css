@@ -1,0 +1,83 @@
+.blok_card {    
+    margin-top: 100px;
+}
+
+.card {
+    margin: 0 auto;
+    width: 300px;    
+    border-radius: 5%;
+    background: rgb(247, 245, 238);
+}
+
+img {
+    margin-bottom: 30px;
+    width: 300px;
+    height: 224px;
+}
+
+.card_info {
+    padding: 10px;
+}
+
+.card_info > span {
+    padding: 5px 15px;
+    background: rgb(177, 40, 40);
+    color: white;
+    margin: 0 20px 20px 0;
+    border-radius: 20px;
+}
+
+.card_info > h3 {    
+    font-size: 30px;
+}
+
+.card_info_rating {
+    position: relative;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.card_info_rating::before {
+    content: "★★★★★";
+    color:rgb(255, 217, 0);
+    display: block;
+}
+
+.rating_item {
+    position: absolute;      
+    opacity: 0;    
+}
+
+.card_info > button {
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.card_info > button:hover {
+    background: rgb(4, 139, 38);
+    color: white;
+}
+
+.card_info_prise {
+    margin-top: 20px;
+}
+
+.card_info_prise > p {
+    color: rgb(153, 137, 137);
+}
+
+.card_info_prise > span:nth-child(2) {
+    color:rgb(134, 123, 123);
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+.card_info_prise > span:nth-child(3) {
+    color: red;
+    margin-left: 10px;
+    font-weight: 900;
+}
