@@ -1,0 +1,85 @@
+.environment {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal_card {
+    width: 80%;
+    height: 200px;
+    background: white;
+    box-shadow: 0 0 20px;
+    overflow: auto;
+    margin: 20% auto 0;
+    padding: 0 0 0 10px;
+    animation: slideInDown 0.5s;
+    position: relative;
+  
+    h1 {
+      text-align: center;
+    }
+  
+    p {
+      text-indent: 20px;
+    }
+  }
+  
+  .slideInDown {
+    animation: slideInUp 0.5s;
+    position: relative;
+  }
+  
+  .btn_close {
+    float: right;
+    margin: 10px;
+    font-weight: 900;
+    font-size: 25px;
+    opacity: 0.3;
+    cursor: pointer;
+  }
+  
+  .btn_close:hover {
+    opacity: 1;
+  }
+  
+  .btn_open {
+    width: 50px;
+    border: 2px solid rgba(63, 136, 143, 0.2);
+    background: rgba(63, 136, 143, 0.2);
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .btn_open:hover {
+    border: 2px solid rgba(0, 0, 255, 1);
+    background: rgba(63, 136, 143, 1);
+  }
+  
+  @keyframes slideInDown {
+    0% {
+      top: -300px;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInUp {
+    0% {
+      top: 0;
+      opacity: 1;
+    }
+    100% {
+      top: -300px;
+      opacity: 0;
+    }
+  }
