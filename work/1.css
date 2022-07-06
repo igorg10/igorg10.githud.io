@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 1440px;
+    height: 648px;
+    margin: 0 auto;
+    background-image: url(/elements/img/Group\ 333.jpg);
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;    
+}
+.header_left {
+    margin: 26px 0 0 65px;
+}
+.logo {
+    display: flex;
+    margin-bottom: 120px;
+}
+.logo > img {
+    margin-right: 8px;
+}
+.logo > h3 {
+    color: rgba(2, 121, 243, 1);
+    font-size: 24px;
+}
+.logo > h3 > span{
+    color: rgba(17, 118, 0, 1);
+}
+.header_left > h5 {
+    color: #C93434;
+    font-size: 16px;
+}  
+.header_left_medicina {
+    font-size: 24px;
+    color: rgba(0, 139, 169, 1);
+}  
+.header_left_medicina > span {
+    font-size: 72px;
+    color: rgba(54, 102, 113, 1);
+}
+.header_left_description {    
+    color: rgba(54, 102, 113, 1);
+    font-size: 14px;
+    margin: 10px 0 46px 0;
+}
+.header_right {
+    text-align: right;
+}
