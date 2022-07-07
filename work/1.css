@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header_new {
+    width: 1440px;
+    height: 663px;
+    margin: 0 auto;
+    background-image: url(/img-med.jpg);
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;    
+}
+.header_left {
+    width: 550px;
+    margin: 26px 0 0 25px;
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    display: flex;
+    margin-bottom: 120px;
+}
+.logo > img {
+    margin-right: 8px;
+}
+.logo > h3 {
+    color: rgba(2, 121, 243, 1);
+    font-size: 24px;
+}
+.logo > h3 > span{
+    color: rgba(17, 118, 0, 1);
+}
+.header_left > h5 {
+    color: #C93434;
+    font-size: 16px;
+}  
+.header_left > h4 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgba(0, 139, 169, 1);
+}  
+.header_left_title {
+    font-size: 65px;
+    color: rgba(54, 102, 113, 1);
+}
+.header_left_description {    
+    color: rgba(54, 102, 113, 1);
+    font-size: 14px;
+    margin: 10px 0 46px 0;
+}
+.header_left_button {
+    width: 90px;
+    text-decoration: none;
+    color: rgba(0, 139, 169, 1);
+    font-size: 16px;
+    border: 2px solid #008BA9;
+    padding: 10px 30px;
+    border-radius: 6px;
+}
+.header_left_button:hover {
+    background-color: rgba(0, 139, 169, 0.2);
+}
+.header_left_slide_buttons {
+    width: 105px;
+    margin-top: 65px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+.header_slide_btn {
+    cursor: pointer;
+}
+.navbar_link_active {
+    text-transform: uppercase;
+}
+.header_right {
+    margin: 15px 85px 0 0;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.header_right_phone, .header_right_email {
+    position: relative;
+    font-size: 15px;
+    color: #366671;
+    font-weight: 800;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.header_right_phone::before {
+    content: url(/img-phone.svg);
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 0px;
+    left: -25px;
+}
+.header_right_email::before {
+    content: url(/img-email.svg);
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 0px;
+    left: -25px;
+}
+.header_right_navbar {
+    display: flex;
+    margin: 12px 0 20px 0;
+}
+.header_right_navbar > li {
+    list-style: none;
+}
+.header_right_navbar > li > a {
+    color: #366671;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.navbar_link {
+    margin-right: 10px;
+}
+.header_right_button {
+    padding: 5px 20px;
+    border-radius: 6px;
+    color: white;
+    background: rgb(255, 0, 0);
+    font-size: 16px;
+    text-decoration: none;
+}
+.header_right_button:hover {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.header_form {
+    background: linear-gradient(235.23deg, #F0FDFF 27.43%, #8FE6F5 51.32%, #3AACC0 77.69%);
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 25%);
+    text-align: center;
+    width: 396px;
+    padding-top: 14px;
+    margin: 100px 0 0 0;
+    border-radius: 10px;
+}
+.admission-form__header {
+    font-size: 28px;
+    line-height: 133.3%;
+    font-weight: 800;
+    color: #366671;
+    text-align: center;
+}
+  .admission-form__subtitle {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #366671;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.admission-form__input {
+    -webkit-box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.25);
+            box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 11px;
+    color: #737373;
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-bottom: 23px;
+}
+.admission-form__btn {
+    width: 145px;
+    margin: auto;
+    font-size: 22px;
+    padding: 8px 47px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    background-color: rgb(54, 102, 113);
+    box-shadow: 0px 1.5941177606582642px 1.5941177606582642px 0px #00000040;
+    cursor: pointer;
+}
+.admission-form__btn:hover {
+    background-color: rgba(54, 102, 113, 0.8);
+}
